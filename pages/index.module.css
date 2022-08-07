@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: cadetblue;
+  height: 100vh;
+}
+
+.guesses {
+  margin: 50px 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80vw;
+  min-height: 80px;
+}
+
+.generate {
+  padding: 12px 16px;
+  margin: 20px 0px;
+  background-color: white;
+  color: #555;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
